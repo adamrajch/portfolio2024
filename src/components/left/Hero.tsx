@@ -47,8 +47,9 @@ export default function Hero({ section }: { section: string }) {
         <span className="text-brand font-bold hover:underline">
           React / NextJS, AI, and emerging technologies
         </span>{" "}
-        . When I am not coding I compete in armwrestling and cycling races. I am
-        currently learning Go and working on a fitness marketplace side project.
+        . When I am not coding I train and compete in armwrestling and cycling
+        races. I am currently learning Go and working on a fitness marketplace
+        side project.
       </p>
       <Links section={section} />
     </div>

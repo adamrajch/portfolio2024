@@ -1,6 +1,5 @@
 import { Dispatch, SetStateAction, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import Contributions from "./Contributions";
 import Contact from "./Contact";
 import Tech from "./Tech";
 
@@ -21,7 +20,7 @@ export default function Misc({
 
       <Contact />
       <Tech />
-      <Contributions />
+      {/* <Contributions /> */}
     </section>
   );
 }
