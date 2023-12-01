@@ -42,8 +42,8 @@ export default function Hero({ section }: { section: string }) {
         </div>
       </div>
       <p className="font-light leading-7">
-        I&apos;m a fullstack software engineer based in Chicago, Illinois. I
-        love working with{" "}
+        I&apos;m a professional fullstack software engineer based in Chicago,
+        Illinois. I love working with{" "}
         <span className="text-brand font-bold hover:underline">
           React / NextJS, AI, and emerging technologies
         </span>{" "}

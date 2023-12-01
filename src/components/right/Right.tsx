@@ -1,8 +1,7 @@
 import { Dispatch, SetStateAction } from "react";
 import Education from "./Education";
-import Projects from "./Projects";
-import Misc from "./misc/Misc";
 import Work from "./Work";
+import Misc from "./misc/Misc";
 
 export default function Right({
   setSection,
@@ -12,7 +11,7 @@ export default function Right({
   return (
     <div className="grid-span-1">
       <Work setSection={setSection} />
-      <Projects setSection={setSection} />
+      {/* <Projects setSection={setSection} /> */}
       <Education setSection={setSection} />
       <Misc setSection={setSection} />
     </div>

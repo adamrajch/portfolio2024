@@ -16,101 +16,93 @@ export default function Work({
   return (
     <section ref={ref} className="mb-16" id="work">
       <h2 className="font-bold text-3xl mb-2">Work</h2>
-
       <Card>
         {/* TITLE */}
-        <h3 className="font-bold text-2xl">Full Stack Software Developer</h3>
+        <h3 className="font-bold text-2xl">Full Stack Web Developer</h3>
         {/* INFO */}
         <p className="font-light text-white/80">
           <a
-            href="#"
+            href="https://www.impactmybiz.com"
             target="_blank"
             rel="noreferrer"
             className="font-bold text-brand hover:underline"
           >
-            Company Name
+            Impact Networking
           </a>{" "}
-          • Full-Time • Jan 2021 - Now
+          • Full-Time • March 2022 - Now
         </p>
-        <p className="font-light mb-4 text-white/80">Orlando, Florida</p>
+        <p className="font-light mb-4 text-white/80">Chicago, Illinois</p>
         {/* CONTENT */}
         <p className="font-light leading-7 mb-4">
-          Here&apos;s a paragraph describing what I did at the company from a
-          high level. I should state my role, the team that I was on, and what
-          we built while I was there.
+          Lead the dev team to transition their tech stack from WordPress to
+          React, NextJS, and Strapi. I also lead the development of
+          Impact&apos;s internal marketing site at{" "}
+          <a
+            href="https://www.impactmybiz.com"
+            target="_blank"
+            rel="noreferrer"
+            className="text-brand"
+          >
+            www.impactmybiz.com
+          </a>
+          .
         </p>
         <p className="font-light leading-7">
-          Here&apos;s a second paragraph which goes into further detail. It
-          should try to use hard numbers. Some examples would be &quot;improved
-          conversion rate of landing pages by 23%&quot; or &quot;improved API
-          throughput by 3X&quot;.
+          Presented best practices for the React and NextJS ecosystem regarding
+          migrations, composition, and code conventions. I was able to migrate
+          thousands of blogs and case studies from the old site to cut billable
+          hours spent by the interal team by 300%. Lead all internal tool
+          development and internal sites like the careers portal and e-commerce
+          site.
         </p>
       </Card>
 
       <Card>
         {/* TITLE */}
-        <h3 className="font-bold text-2xl">Software Engineer</h3>
+        <h3 className="font-bold text-2xl">Full Stack Web Developer</h3>
         {/* INFO */}
         <p className="font-light text-white/80">
           <a
-            href="https://www.wayfair.com/"
+            href="https://www.steersman.works/"
             target="_blank"
             rel="noreferrer"
             className="font-bold text-brand hover:underline"
           >
-            Another Company
+            Steersman Company
           </a>{" "}
-          • Full-Time • Jan 2020 - Jun 2021
+          • Full-Time • March 2020 - March 2022
         </p>
-        <p className="font-light mb-4 text-white/80">Boston, Massachusetts</p>
+        <p className="font-light mb-4 text-white/80">Deerfield, Illinois</p>
         {/* CONTENT */}
 
         <p className="font-light leading-7 mb-4">
-          Here&apos;s a paragraph similar to the previous. It should describe
-          what I did at the company from a high level. I should state my role
-          and the, team that I was on, and what we built while I was there.
-        </p>
-        <p className="font-light leading-7 mb-4">
-          You could also list your projects using bullet points like this:
-        </p>
-        <p className="font-light leading-7 mb-4">
-          - A suite of tools used by marketing analysts to directly drive
-          efficiency in hundreds of millions of dollars of ad spend (React,
-          Java, Dropwizard, Python, Vertica, Hive, MSSQL, Presto and more)
-        </p>
-        <p className="font-light leading-7 mb-4">
-          - &quot;Forge&quot; framework for designing jobs which pipe billions
-          of rows of data daily (Python, Aerospike, Spark, Hive)
-        </p>
-        <p className="font-light leading-7 mb-4">
-          - Custom data analytics user interfaces which allow analysts to track
-          performance of ad campaigns over time (React, PrestoDB, Vertica, Java,
-          Dropwizard)
-        </p>
-        <p className="font-light leading-7">
-          - The &quot;Generic CSV Uploader&quot; API which has cut development
-          time of new CSV upload utilities (we&apos;ve got many of them) down
-          from a week to day (Java, Dropwizard)
+          Developed e-commerce based API with NextJS and python using Odoo ERP.
+          Worked on multiple frontends for different clients, mainly
+          manufacturing companies with a big e-commerce catalog. Created a chat
+          plugin to intergrate with the ERP so companies&apos; sales team can
+          chat live with prospective users
         </p>
       </Card>
 
       <Card>
         {/* TITLE */}
-        <h3 className="font-bold text-2xl">Unrelated experience</h3>
-
+        <h3 className="font-bold text-2xl">Web Developer</h3>
         {/* INFO */}
         <p className="font-light text-white/80">
-          Various Companies • Full-Time • Aug 2015 - Nov 2018
+          <a
+            href="https://www.impactmybiz.com"
+            target="_blank"
+            rel="noreferrer"
+            className="font-bold text-brand hover:underline"
+          >
+            Divine Design and Marketing
+          </a>{" "}
+          • Full-Time • March 2019 - March 2020
         </p>
-        <p className="font-light mb-4 text-white/80">Various Locations</p>
 
         {/* CONTENT */}
         <p className="font-light leading-7">
-          If you&apos;ve got unrelated experience, you can separate them out as
-          you wish. I tend to lump my less relevant experience into one place
-          like this. I worked in construction before I became a developer, so I
-          might say something like &quot;lead teams of welders and fitters to
-          build projects on a tight deadline&quot;. You get the idea {":)"}
+          WordPress development for various manufacturing clients
         </p>
       </Card>
     </section>
