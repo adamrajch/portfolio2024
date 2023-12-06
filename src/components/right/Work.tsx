@@ -107,7 +107,7 @@ export default function Work({
       </Card>
       <Card>
         {/* TITLE */}
-        <h3 className="font-bold text-2xl">Web Developer</h3>
+        <h3 className="font-bold text-2xl">Fullstack Web/Mobile Developer</h3>
         {/* INFO */}
         <p className="font-light text-white/80">
           <a
