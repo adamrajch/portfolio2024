@@ -29,7 +29,7 @@ export default function Work({
           >
             Impact Networking
           </a>{" "}
-          • Full-Time • March 2022 - Now
+          • Full-Time • Sept 2021 - Now
         </p>
         <p className="font-light mb-4 text-white/80">Chicago, Illinois</p>
         {/* CONTENT */}
@@ -70,7 +70,7 @@ export default function Work({
           >
             Steersman Company
           </a>{" "}
-          • Full-Time • March 2020 - March 2022
+          • Full-Time • March 2020 - Sept 2021
         </p>
         <p className="font-light mb-4 text-white/80">Deerfield, Illinois</p>
         {/* CONTENT */}

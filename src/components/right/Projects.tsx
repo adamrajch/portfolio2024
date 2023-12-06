@@ -1,7 +1,6 @@
-import { Dispatch, SetStateAction, useEffect } from "react";
+import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import Card from "../utilities/Card";
-import { useState } from "react";
 
 export default function Projects({
   setSection,
@@ -41,10 +40,10 @@ export default function Projects({
 
       <Card>
         <div className="flex items-center justify-between mb-6">
-          <h3 className="font-bold text-2xl">First Project</h3>
+          <h3 className="font-bold text-2xl">Impact Networking</h3>
           <div>
             <a
-              href="#"
+              href="https://www.impactmybiz.com"
               target="_blank"
               rel="noreferrer"
               className="text-brand font-semibold hover:underline"
@@ -54,124 +53,91 @@ export default function Projects({
           </div>
         </div>
         <p className="font-light leading-7 mb-6">
-          Here I&apos;ll describe in a paragraph or so what my project is, what
-          it does, and most importantly WHO IT SERVES! Describe the problem it
-          fixes and for who it fixes it for. If you worked on a team, say which
-          parts that you built. I like to add a video of how it works like the
-          one below so people don&apos;t have to sign up if they don&apos;t want
-          to.
+          New and improved marketing site, migrating to NextJS and Strapi. The
+          site is performant and SEO optimized and is statically generated. 60+
+          marketing pages and 1000+ blog and insight pages.
         </p>
         {renderTags([
-          "iOS",
-          "Android",
           "React (Next JS)",
-          "React Native",
+          "Typescript",
+          "Strapi CMS",
           "Node",
-          "GCP",
-          "Firebase",
-          "Serverless",
-        ])}
-        <div className="mt-6 flex flex-col items-center">
-          <button
-            onClick={() => setVidOne((pv) => !pv)}
-            className="bg-brand hover:bg-brand/90 transition-colors px-4 py-2 w-full rounded-sm text-white"
-          >
-            Video Demo
-          </button>
-          {vidOne && (
-            <video
-              preload="metadata"
-              className="mt-4"
-              width="300"
-              height="auto"
-              controls
-            >
-              <source src="/wips/preview.mp4" />
-              Your browser does not support the video tag.
-            </video>
-          )}
-        </div>
-      </Card>
-
-      <Card>
-        <h3 className="font-bold text-2xl mb-6">Second Project</h3>
-        <p className="font-light leading-7 mb-6">
-          Here I&apos;ll describe in a paragraph or so what my project is, what
-          it does, and most importantly WHO IT SERVES! Describe the problem it
-          fixes and for who it fixes it for. If you worked on a team, say which
-          parts that you built. I like to add a video of how it works like the
-          one below so people don&apos;t have to sign up if they don&apos;t want
-          to.
-        </p>
-        {renderTags([
-          "React (CRA)",
-          "Node",
-          "Express",
           "Postgres",
-          "Knex JS",
-          "Heroku",
-          "Web Sockets",
+          "Framer Motion",
+          "SASS",
         ])}
-
-        <div className="mt-6 flex flex-col items-center">
-          <button
-            onClick={() => setVidTwo((pv) => !pv)}
-            className="bg-brand hover:bg-brand/90 transition-colors px-4 py-2 w-full rounded-sm text-white"
-          >
-            Video Demo
-          </button>
-          {vidTwo && (
-            <video
-              preload="metadata"
-              className="mt-4"
-              width="100%"
-              height="auto"
-              controls
-            >
-              <source src="/wips/preview.mp4" />
-              Your browser does not support the video tag.
-            </video>
-          )}
-        </div>
       </Card>
 
       <Card>
-        <h3 className="font-bold text-2xl mb-6">Third project</h3>
+        <div className="flex items-center justify-between mb-6">
+          <h3 className="font-bold text-2xl">AI Embeddings Chat</h3>
+          <div>
+            <a
+              href="https://ai-vectors-2k3k.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-brand font-semibold hover:underline"
+            >
+              Visit Website
+            </a>
+          </div>
+        </div>
         <p className="font-light leading-7 mb-6">
-          Here I&apos;ll describe in a paragraph or so what my project is, what
-          it does, and most importantly WHO IT SERVES! Describe the problem it
-          fixes and for who it fixes it for. If you worked on a team, say which
-          parts that you built. I like to add a video of how it works like the
-          one below so people don&apos;t have to sign up if they don&apos;t want
-          to.
+          AI project to demonstrate usage of OpenAI, Pinecone, and Vercel AI.
+          Chat with AI that queries relevant data via vector embeddings
         </p>
         {renderTags([
           "React (Next JS)",
-          "TypeScript",
+          "Typescript",
           "Node",
-          "Express",
-          "Web Audio",
+          "MongoDB",
+          "OpenAI",
+          "Pinecone",
+          "Prisma",
         ])}
-        <div className="mt-6 flex flex-col items-center">
-          <button
-            onClick={() => setVidThree((pv) => !pv)}
-            className="bg-brand hover:bg-brand/90 transition-colors px-4 py-2 w-full rounded-sm text-white"
-          >
-            Video Demo
-          </button>
-          {vidThree && (
-            <video
-              preload="metadata"
-              className="mt-4"
-              width="100%"
-              height="auto"
-              controls
-            >
-              <source src="/wips/preview.mp4" />
-              Your browser does not support the video tag.
-            </video>
-          )}
+      </Card>
+
+      <Card>
+        <div className="flex items-center justify-between mb-6">
+          <h3 className="font-bold text-2xl">Periodize</h3>
+          <div>
+            <p className="text-brand font-semibold">coming soon</p>
+          </div>
         </div>
+        <p className="font-light leading-7 mb-6">
+          Fitness marketplace and training analytics. Create and subscribe to
+          detailed and structured training programs guided by exercise science
+          principles and methodologies.
+        </p>
+        {renderTags([
+          "React (Next JS)",
+          "PWA",
+          "Typescript",
+          "RXDB",
+          "Node",
+          "Hasura",
+          "GraphQL",
+        ])}
+      </Card>
+
+      <Card>
+        <div className="flex items-center justify-between mb-6">
+          <h3 className="font-bold text-2xl">Obed Bikes</h3>
+          <div>
+            <a
+              href="https://obedbikes.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-brand font-semibold hover:underline"
+            >
+              Visit Website
+            </a>
+          </div>
+        </div>
+        <p className="font-light leading-7 mb-6">
+          Frontend and chat plugin API
+        </p>
+        {renderTags(["Python", "React"])}
       </Card>
     </section>
   );
