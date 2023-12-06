@@ -84,7 +84,15 @@ export default function Projects({
         </div>
         <p className="font-light leading-7 mb-6">
           AI project to demonstrate usage of OpenAI, Pinecone, and Vercel AI.
-          Chat with AI that queries relevant data via vector embeddings
+          Chat with AI that queries relevant data via vector embeddings.{" "}
+          <a
+            href="https://github.com/adamrajch/ai-vectors"
+            target="_blank"
+            rel="noreferrer"
+            className="text-brand font-semibold hover:underline"
+          >
+            Check out the repo
+          </a>
         </p>
         {renderTags([
           "React (Next JS)",
