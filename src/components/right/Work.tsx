@@ -102,7 +102,7 @@ export default function Work({
 
         {/* CONTENT */}
         <p className="font-light leading-7">
-          WordPress development for various manufacturing clients
+          React/Next JS, WordPress development for various manufacturing clients
         </p>
       </Card>
       <Card>
