@@ -29,7 +29,7 @@ export default function Work({
           >
             Impact Networking
           </a>{" "}
-          • Full-Time • Sept 2021 - Now
+          • Full-Time • Sept 2022 - Now
         </p>
         <p className="font-light mb-4 text-white/80">Chicago, Illinois</p>
         {/* CONTENT */}
@@ -70,7 +70,7 @@ export default function Work({
           >
             Steersman Company
           </a>{" "}
-          • Full-Time • March 2020 - Sept 2021
+          • Full-Time • March 2021 - Sept 2022
         </p>
         <p className="font-light mb-4 text-white/80">Deerfield, Illinois</p>
         {/* CONTENT */}
@@ -97,12 +97,33 @@ export default function Work({
           >
             Divine Design and Marketing
           </a>{" "}
-          • Full-Time • March 2019 - March 2020
+          • Full-Time • March 2019 - March 2021
         </p>
 
         {/* CONTENT */}
         <p className="font-light leading-7">
           WordPress development for various manufacturing clients
+        </p>
+      </Card>
+      <Card>
+        {/* TITLE */}
+        <h3 className="font-bold text-2xl">Web Developer</h3>
+        {/* INFO */}
+        <p className="font-light text-white/80">
+          <a
+            href="https://www.impactmybiz.com"
+            target="_blank"
+            rel="noreferrer"
+            className="font-bold text-brand hover:underline"
+          >
+            Freelance
+          </a>{" "}
+          • Jan 2018 - March 2022
+        </p>
+
+        {/* CONTENT */}
+        <p className="font-light leading-7">
+          Next JS, React, React Native Apps
         </p>
       </Card>
     </section>
